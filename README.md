@@ -10,3 +10,4 @@ The additional modality is first channel-wise concatenated to the RGB image, and
 
 How do I put Input Dropout in my problem?
 To use the proposed method, simply take the code block from the ID.py file named Input Dropout. This block is used exactly like a PyTorch transform function. As an argument, just put the drop mode (either both or addit).
+ 
