@@ -10,4 +10,7 @@ The additional modality is first channel-wise concatenated to the RGB image, and
 
 How do I put Input Dropout in my problem?
 To use the proposed method, simply take the code block from the ID.py file named Input Dropout. This block is used exactly like a PyTorch transform function. As an argument, just put the drop mode (either both or addit).
- 
+
+
+Easy example, showing how to use Input Dropout but not really improving performance: 
+A simple example of how to use this code is as follows: take Cifar-10, publish the dataset and put the copy in black and white. So now we have RGB and BW pairs. We just have to concatenate these pairs to obtain a 4-channel RGB-BW image. 
