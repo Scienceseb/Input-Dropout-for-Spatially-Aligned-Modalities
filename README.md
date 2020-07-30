@@ -2,6 +2,8 @@
 PyTorch code for the paper **Input Dropout for Spatially Aligned Modalities** (https://arxiv.org/pdf/2002.02852.pdf)<br/> 
 You can see our poster by opening the poster.png file, be aware it's big!
 
+![Poster](poster.png)
+
 Two assumptions:<br/>
 1) All input modalities are spatially aligned (that must be true).<br/>
 2) RGB modality is the only modality available at test time (this assumption is for the paper only, you can make the change in the code).
