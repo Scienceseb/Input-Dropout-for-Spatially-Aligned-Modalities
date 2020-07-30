@@ -1,8 +1,5 @@
 # Input-Dropout
 PyTorch code for the paper **Input Dropout for Spatially Aligned Modalities** (https://arxiv.org/pdf/2002.02852.pdf)<br/> 
-You can see our poster by opening the poster.png file, be aware it's big!
-
-![Poster](poster.png)
 
 Two assumptions:<br/>
 1) All input modalities are spatially aligned (that must be true).<br/>
@@ -18,3 +15,5 @@ To use the proposed method, simply take the code block from the InputDropout.py 
 ## **Easy example, showing how to use Input Dropout, but not really improving performance (main_cifar10.py):** <br/>
 A simple example of how to use this code is as follows: take CIFAR-10, duplicate the dataset and make the copy black and white (BW). So now we have RGB and BW pairs. We just have to concatenate these pairs to obtain a 4-channel RGB-BW image. In this example, you can easily test the different Input Dropout modes. See the code for more details. 
 
+
+![Poster](poster.png)
