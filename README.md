@@ -12,5 +12,5 @@ How do I put Input Dropout in my problem?
 To use the proposed method, simply take the code block from the ID.py file named Input Dropout. This block is used exactly like a PyTorch transform function. As an argument, just put the drop mode (either both or addit).
 
 
-Easy example, showing how to use Input Dropout but not really improving performance: 
+Easy example, showing how to use Input Dropout but not really improving performance (main_cifar10.py): 
 A simple example of how to use this code is as follows: take CIFAR-10, duplicate the dataset and make the copy black and white (BW). So now we have RGB and BW pairs. We just have to concatenate these pairs to obtain a 4-channel RGB-BW image. See the code for more details. 
