@@ -13,4 +13,4 @@ To use the proposed method, simply take the code block from the InputDropout.py 
 
 
 Easy example, showing how to use Input Dropout but not really improving performance (main_cifar10.py): 
-A simple example of how to use this code is as follows: take CIFAR-10, duplicate the dataset and make the copy black and white (BW). So now we have RGB and BW pairs. We just have to concatenate these pairs to obtain a 4-channel RGB-BW image. See the code for more details. 
+A simple example of how to use this code is as follows: take CIFAR-10, duplicate the dataset and make the copy black and white (BW). So now we have RGB and BW pairs. We just have to concatenate these pairs to obtain a 4-channel RGB-BW image. In this example, you can easily test the different inputdropout modes. See the code for more details. 
